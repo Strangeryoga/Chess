@@ -75,3 +75,21 @@ path {
 .white {
   fill: rgb(255, 255, 255);
 }
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  #gameboard {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40%;
+    margin-left: 4%;
+  }
+
+  #info {
+    font-size: large;
+    top: 63%;
+    left: 30%;
+  }
+}
